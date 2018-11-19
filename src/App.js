@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import './styles/common.less';
+import './styles/common.scss';
 
 class App extends Component {
   render() {
