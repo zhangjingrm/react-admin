@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import { Menu, Icon, Button, Layout } from 'antd';
+import { Layout } from 'antd';
 import Nav from '../base/menu/nav';
 import LeftMenu from '../base/menu/leftMenu';
-import { BrowserRouter as Link  } from "react-router-dom";
 import './App.css';
 import '../styles/common.scss';
 
 import Routes from '../config/router.config';
 
 const { Header, Content, Footer, Sider } = Layout;
-const SubMenu = Menu.SubMenu;
 
 class App extends Component {
   constructor(props) {

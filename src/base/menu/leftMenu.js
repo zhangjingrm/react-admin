@@ -1,6 +1,6 @@
 import React from 'react';
-import { Menu, Icon, Button } from 'antd';
-import { withRouter, BrowserRouter as Link } from "react-router-dom";
+import { Menu, Icon } from 'antd';
+import { withRouter } from "react-router-dom";
 import history from '../history';
 import './leftMenu.scss';
 
