@@ -1,0 +1,35 @@
+$nav-height: 67px;
+
+.nav-content {
+  width: calc(100% - 200px);
+  height: $nav-height;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.nav__header {
+  height: $nav-height;
+  position: relative;
+  box-shadow: 0 2px 1px 1px rgba(100, 100, 100, 0.1);
+}
+
+.nav__userInfo {
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  line-height: $nav-height;
+}
+
+
+/*-------修改antd自带的样式---------*/
+.ant-layout-sider-children {
+  background: #fff;
+}
+.ant-layout-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-left: 200px;
+}
