@@ -25,7 +25,7 @@ class FormPage extends React.Component {
           <h1>受控组件</h1>
           <label>
             姓名:
-            <input type="text" name="name" value={this.state.name} onChange={this.handleInputChange}/>
+            <input type="text" name="name" value={this.state.name} onChange={this.handleInputChange} />
             <span>{this.state.name}</span><br />
           </label>
           <label>

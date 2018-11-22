@@ -16,6 +16,7 @@ class Config extends React.Component {
           <Route path="/form" component={routePages.FormPage}/>
           <Route path="/editor" component={routePages.EditorPage}/>
           <Route path="/echarts" component={routePages.EchartsPage}/> 
+          <Route path="/antdForm" component={routePages.AntdForm}/> 
         </div>
       </Router>
     );

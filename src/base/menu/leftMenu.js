@@ -29,6 +29,7 @@ class LeftMenu extends React.Component {
           <Menu.Item key="form">form</Menu.Item>
           <Menu.Item key="editor">editor</Menu.Item>
           <Menu.Item key="echarts">echarts</Menu.Item>
+          <Menu.Item key="antdForm">antdForm</Menu.Item>
         </SubMenu>
         <SubMenu key="sub2" title={<span><Icon type="appstore" /><span>通用组件</span></span>}>
           <SubMenu key="sub2-1" title="form">

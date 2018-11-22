@@ -32,7 +32,7 @@ class App extends Component {
               <Routes />
             </Content>
           </Layout>
-          <Footer>footer</Footer>
+          {/*<Footer>footer</Footer>*/}
         </Layout>
       </div>
     );
